@@ -1,38 +1,99 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap'); /* Heading Font */
+
+
+/* Navigation Bar Styling*/
+.navBar {
+  width: 100%;
+  height: 80px;
+  background: rgba(0, 0, 0, 0.863);
+}
+
+.navBar ul li {
+  list-style-type: none;
+  display: inline-block;
+  line-height: 80px;
+  transition: 0.7s all;
+  font-family: 'Montserrat', sans-serif; /* non-heading font*/
+
+}
+
+.navBar ul li:hover{
+  background: rgb(10, 172, 236);
+}
+
+.navBar ul {
+  float: right;
+  margin-right: 30px;
+}
+
+.navBar ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 30px;
+}
+
+.littleNav {
+  width: 100%;
+  height: 30px;
+  background: rgb(10, 172, 236);
+  color: #ffffff;
+ 
+  
+}
+
+.littleNavText {
+
+  font-family: 'Montserrat', sans-serif; /* non-heading font*/
   text-align: center;
+  overflow: hidden;
+  padding: 0;
+  margin-left: 25%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*App.js Accessories heading style*/
+
+.accessoriesHeading{
+  color: #BE933C;
+  margin-top: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-left: 10px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.inputNumber{
+
+  text-align: center;
+  width: 20%;
+  margin-left: 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.addToCartButton {
+  margin-top: 20px;
+  height: 20%;
+  width: 70%;
 }
 
-.App-link {
-  color: #61dafb;
+/* About Page*/
+
+.aboutHeads {
+  margin-top: 10%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.aboutPara {
+  margin-top: 8%;
+  font-family: 'Montserrat', sans-serif; /* non-heading font*/
+
+}
+
+.aboutImage{
+
+  width: 100%;
+}
+
+
+.cartHeading {
+  text-align: center;
+  margin-top: 20px;
 }
