@@ -12,13 +12,13 @@ const Nav = (props) => {
                     <li><a href="#" >Invisalign Home</a></li>
 
                     <Link to='/About'>
-                        <li>About</li>
+                        <li className="aboutLink">About</li>
                     </Link>
                     <Link to='/Cart'>
                         <li>
                             <img src="https://www.invisalignaccessories.com/assets/cart_icon_header-23aa40502841b773752ef2ef4803a2bb77187d6628bad3a80a0942f76a750212.png"
                                 width="30" height="30" alt="icon" />
-                            <span>{props.cartCount}</span>
+                            <span className="cartCountNumber">{props.cartCount}</span>
                         </li>
                     </Link>
 

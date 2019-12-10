@@ -6,10 +6,11 @@ export default function Cart(props) {
     let cartList = [];
 
     Object.keys(props.productData.cartCountMap).forEach(productId => {
-                        
+        
+        
         let product = {
-            name: props.productData.products[productId].name,
-            price: props.productData.products[productId].price,
+            name: props.productData.products[productId-1].name,
+            price: props.productData.products[productId-1].price,
             quantity: props.productData.cartCountMap[productId]
         };
          cartList.push(product);

@@ -54,7 +54,7 @@ export default class App extends Component {
     this.setState(newState);
 }
 
-//Add to Cart Buttons
+//Add to Cart Button
   addToCartHandler = (productId) => {
       let itemQuantityMap = this.state.itemQuantityMap;
       let cartCountMap = this.state.cartCountMap;

@@ -15,6 +15,7 @@
   line-height: 80px;
   transition: 0.7s all;
   font-family: 'Montserrat', sans-serif; /* non-heading font*/
+  border-spacing: 10px;
 
 }
 
@@ -96,4 +97,15 @@
 .cartHeading {
   text-align: center;
   margin-top: 20px;
+}
+
+
+.cartCountNumber{
+  color:white;
+  font-size: 10px;
+  
+}
+
+.aboutLink {
+  color:white;
 }
